@@ -1,17 +1,21 @@
 # LibraryManagement
 
-This is a basic Spring Framework application for managing a library backend.
+This project is a basic Maven setup for a Spring application.
 
 ## Features
-- Spring-based configuration using XML.
-- Demonstrates Dependency Injection (DI) with `BookService` and `BookRepository`.
+- Configured Maven project with Spring dependencies.
+- Supports Spring Context, AOP, and WebMVC.
+- Java 1.8 compatibility via Maven Compiler Plugin.
 
-## How to Run
-1. Import the project into your IDE (e.g., IntelliJ or Eclipse).
-2. Run `MainApp.java` to test the Spring configuration.
-3. The output should print: `Saving book: The Great Gatsby`
+## How to Use
+1. Import into your IDE (IntelliJ, Eclipse, etc.)
+2. Run `mvn clean install` to download dependencies.
+3. Add your Spring configuration and classes as needed.
 
-## Structure
-- `BookService`: Service layer for book-related logic.
-- `BookRepository`: Repository layer for data operations.
-- `applicationContext.xml`: Spring XML configuration.
+## Dependencies
+- `spring-context`
+- `spring-aop`
+- `spring-webmvc`
+
+## Plugin
+- `maven-compiler-plugin` configured for Java 1.8
